@@ -1,3 +1,220 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;/* never be bigger than your parent - stops the dreaded horizontal scroll bar */
+    /* border:1px solid grey; */
+}
+/* Your code starts here! */
+/* ---------------------------------------- */
+*{
+	max-width:100%;
+}
+header {
+	width:100%;
+}
+header section{
+	display:flex;
+	align-items: column;
+}
+#navSect {
+	background-color: white;
+	top:0%;
+	width:100%;
+	position:fixed;
+	z-index:4;
+	height: 10vh;
+	display:flex;
+	align-items:center;
+}
+nav {
+	width:75%;
+	display:flex;
+	justify-content: space-evenly;
+}
+.nav-div{
+	font-weight: 700;
+	width:100%;
+	z-index: 4;
+	text-decoration:none;
+	display:flex;
+	justify-content:space-around;
+}
 
+#service-header-container{
+	padding-top:15vh;
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+.services-header-img {
+	width:90%;
+}
+.static-img{
+	position:fixed;
+	opacity: 0.25;
+	z-index:3;
+	width: 100%;
+	height: 10%;
+}
+.logo-pic {
+	width:16%;
+	z-index: 4;
+	display:flex;
+	justify-content:flex-end;
+}
+.spacer{
+	margin:12vh auto 3%;
+	width:800px;
+	display:flex;
+	justify-content:space-evenly;
+}
+.logo-Section{
+	padding-bottom:5%;
+	width:100%;
+}
+.logo-text{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content: flex-start;
+  	align-items: center;
+}
+footer{
+	display:flex;
+	justify-content:center;
+	justify-items:center;
+	height:20vh;
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+}
+/* ------ first page ------ */
+.circleImg{
+	width:50%;
+	display:flex;
+	justify-content: center;
+}
+h1{
+	text-align: center;
+	font-size: 600%;
+}
+header p{
+	border:2px solid black;
+	padding: 2% 5%;
+	text-align: center;
+}
+.main-content {
+	z-index:1;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:800px;
+	margin:0 auto;
+}
+.main-content section{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.top-section{
+	width:100%;
+}
+.topDiv {
+	width:100%;
+}
+.two-blocks{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width:90%;
+	height:20vh;
+	border-top: 2px solid black;
+}
+.three-blocks{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width:90%;
+	height:25vh;
+	border-bottom: 2px solid black;
+}
+.middle-image {
+	width:90%;
+}
+.middle-img {
+	width:100%;
+}
+.bottom-section{
+	
+	width:100%;
+}
+.bottom{
+	width: 33%;
+}
+address{
+	display:flex;
 
+}
+.footer-section{
+	padding-top:5vh;
+	width:90%;
+	display:flex;
+	flex-direction: column;
+}
+/* ------ first page ------ */
+/* ------ second page ------ */
+#main-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	align-content:space-around;
+	height:60vh;
+}
+.serv-notes{
+	padding:2%;
+	border:1px solid black;
+	display:flex;
+	align-items:space-between;
+	background-color:grey;
+	width:43%;
+}
+.services-container {
+	display:flex;
+	justify-content:center;
+	padding: 2% 0;
+	
+}
+.services-container .text{
+	width:90%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid black;
+}
+li{
+	list-style:square;
+}
+.end-notes {
+	margin:3% 0 3% 5%;
+	border-top: 2px solid black;
+	padding-top: 2%;
+	width:90%;
+	display:flex;
+	justify-content:space-between;
+}
+.thing-list {
+	margin-left:4%;
+}
+.end-notes .text{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	width:50%;
+}
+.thing-list {
+	height:50%;
+	display:flex;
+}
+.text p{
+	text-align:justify;
+}
